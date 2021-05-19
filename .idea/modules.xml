@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArrayImpl/ArrayImpl.iml" filepath="$PROJECT_DIR$/ArrayImpl/ArrayImpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearchTrees/BinarySearchTrees.iml" filepath="$PROJECT_DIR$/BinarySearchTrees/BinarySearchTrees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BooleanManipulationFactory/BooleanManipulationFactory.iml" filepath="$PROJECT_DIR$/BooleanManipulationFactory/BooleanManipulationFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Development.iml" filepath="$PROJECT_DIR$/Development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntegerFactory/IntegerFactory.iml" filepath="$PROJECT_DIR$/IntegerFactory/IntegerFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListManipulationFactory/ListManipulationFactory.iml" filepath="$PROJECT_DIR$/ListManipulationFactory/ListManipulationFactory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings1.iml" filepath="$PROJECT_DIR$/Strings/Strings1.iml" />
+    </modules>
+  </component>
+</project>
