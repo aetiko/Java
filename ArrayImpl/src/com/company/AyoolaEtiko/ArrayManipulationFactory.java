@@ -15,10 +15,8 @@ public class ArrayManipulationFactory extends FactoryMethods{
                     count++;
                 }
             }
-            System.out.println(" ------ Checks for if there are any values in the array though iterations-----------");
             ouputArr[i] = count;
             printArr(ouputArr);
-            System.out.println("-------------------------------------------------------------------------------------");
         }
         return ouputArr;
     }

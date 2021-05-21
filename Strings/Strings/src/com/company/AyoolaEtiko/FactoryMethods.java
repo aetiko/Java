@@ -8,24 +8,8 @@ public class FactoryMethods {
         System.out.println("--------All code written by Ayoola Nurudeen Etiko--------");
     }
 
-    public static void swap(int x, int y, int[] array){
-        int temp;
-        temp = array[y];
-        array[y] = array[x];
-        array[x] = temp;
-    }
-
-    public static void printArr(int[] array) {
-        for (int num : array) {
-            System.out.print("" + num + ",");
-
-        }
-        System.out.println(
-                "\n"
-        );
-    }
-
     public static void printEnd(){
         System.out.println("----------_END--------------");
     }
+
 }

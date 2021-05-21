@@ -39,7 +39,12 @@ public class Main {
         manipulateArray.bubbleSort(bubbleArr);
         manipulateArray.printArr(bubbleArr);
 
+
+        System.out.println(" ------ Checks for if there are any values in the array though iterations-----------");
         manipulateArray.smallerNumbersThanCurrent(smallerNumbersThanCurrent);
+        System.out.println("-------------------------------------------------------------------------------------");
+
+        factoryMethods.printEnd();
 
     }
 }
