@@ -1,5 +1,7 @@
 package com.company.AyoolaEtiko;
 
+import java.util.ArrayList;
+
 public class StingsImplementedFuncts {
 
     public  String defangIpaddr(String address) {
@@ -31,5 +33,25 @@ public class StingsImplementedFuncts {
         }
         System.out.println("Jewel Counter: " + jewelCounter);
         return jewelCounter;
+    }
+
+    public String tournamentWinner(
+            ArrayList<ArrayList<String>> competitions, ArrayList<Integer> results) {
+        String test = "";
+        int score = 0;
+        ArrayList<ArrayList<Object>> scores = new ArrayList<>();
+            for (int i = 0; i < competitions.size(); i++){
+                for (int j = 0; j < competitions.get(i).size(); j++){
+                    if(results.get(i) == 0){
+                        test += competitions.get(j).get(1);
+                        score += 3;
+//                        scores.add();
+                    }else {
+                        test += competitions.get(j).get(0);
+                        score += 3;
+                    }
+                }
+            }
+        return "";
     }
 }
