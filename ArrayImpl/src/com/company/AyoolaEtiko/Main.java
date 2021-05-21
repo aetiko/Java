@@ -8,6 +8,8 @@ public class Main {
         int [] arr = {3, 5, -4, 8, 11, 1, -1, 6};
         int arrayToBeSquared[] = {1, 2, 3, 5, 6, 8, 9};
         int bubbleArr[] = {5, 2, 8, 5, 6, 3, 9};
+        int smallerNumbersThanCurrent[] = {8, 1, 2, 2, 3};
+
         int pointToBeginShuffle = 3;
         int targetSum = 10;
         int targetSum1 = 8;
@@ -16,21 +18,28 @@ public class Main {
         int targetSum4 = 7;
 
 
+        FactoryMethods factoryMethods = new FactoryMethods();
+
+        factoryMethods.printAyoola();
+
 
         ArrayManipulationFactory manipulateArray = new ArrayManipulationFactory();
 
         manipulateArray.runningSum(runningSumArray);
         manipulateArray.shuffle(arrToShuffle, pointToBeginShuffle);
         manipulateArray.sortedSquaredArray(arrayToBeSquared);
+
         manipulateArray.twoNumberSum(arr, targetSum);
         manipulateArray.twoNumberSum(arr, targetSum1);
         manipulateArray.twoNumberSum(arr, targetSum2);
         manipulateArray.twoNumberSum(arr, targetSum3);
         manipulateArray.twoNumberSum(arr, targetSum4);
+
         manipulateArray.printArr(bubbleArr);
-        System.out.print("\n");
         manipulateArray.bubbleSort(bubbleArr);
         manipulateArray.printArr(bubbleArr);
+
+        manipulateArray.smallerNumbersThanCurrent(smallerNumbersThanCurrent);
 
     }
 }

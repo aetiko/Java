@@ -4,7 +4,24 @@ import java.util.*;
 All questions here are from Leetcode and AlgoExpert
 All solved by Ayoola Nurudeen Etiko
  */
-public class ArrayManipulationFactory {
+public class ArrayManipulationFactory extends FactoryMethods{
+
+    public int [] smallerNumbersThanCurrent(int[] nums){
+        int [] ouputArr = new int[nums.length];
+        for (int i = 0; i<nums.length; i++){
+            int count = 0;
+            for (int j = 0; j <= nums.length-1; j++){
+                if (i != j && nums[j] < nums[i]){
+                    count++;
+                }
+            }
+            System.out.println(" ------ Checks for if there are any values in the array though iterations-----------");
+            ouputArr[i] = count;
+            printArr(ouputArr);
+            System.out.println("-------------------------------------------------------------------------------------");
+        }
+        return ouputArr;
+    }
     public int[] runningSum(int[] nums) {
         int sum = 0;
         for (int i = 0; i <= nums.length - 1; i++){
@@ -75,18 +92,5 @@ public class ArrayManipulationFactory {
         }
 
         return array;
-    }
-    public static void swap(int x, int y, int[] array){
-        int temp;
-        temp = array[y];
-        array[y] = array[x];
-        array[x] = temp;
-    }
-
-    public static void printArr(int[] array) {
-        for (int num : array) {
-            System.out.print("" + num + ",");
-
-        }
     }
 }
