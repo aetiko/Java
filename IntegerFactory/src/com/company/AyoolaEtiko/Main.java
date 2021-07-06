@@ -21,13 +21,13 @@ public class Main {
         int positionArrTwo[] = {2,2,2,3,3};
         int positionArrThree[] = {1,1000000000};
 
-
-
+        int x = 321;
         int digit = 8;
 
 
         IntegerManipulationFactory manipulateInteger = new IntegerManipulationFactory();
 
+        manipulateInteger.reverse(x);
         manipulateInteger.maximumWealth(accounts);
         manipulateInteger.numJewelsInStones(jewels, stones);
         manipulateInteger.numIdenticalPairs(factory);

@@ -21,7 +21,7 @@ public class Main {
         ArrayList<Integer> results = new ArrayList<>();
         results.add(0);
         results.add(0);
-        results.add(1);
+
 
 
         FactoryMethods factoryMethods = new FactoryMethods();

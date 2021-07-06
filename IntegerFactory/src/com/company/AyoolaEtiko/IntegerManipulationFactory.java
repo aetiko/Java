@@ -6,7 +6,23 @@ import java.util.Arrays;
 All questions here are from Leetcode and AlgoExpert
 All solved by Ayoola Nurudeen Etiko
  */
+
+
 public class IntegerManipulationFactory {
+
+    /*
+     * Reverse integers in arrays
+     * 32 bit intgers allowed only*/
+
+    public int reverse(int x) {
+        String ans = x < 0 ? new StringBuilder(String.valueOf(-x)).append("-").reverse().toString()
+                : new StringBuilder(String.valueOf(x)).reverse().toString();
+        try {
+            return Integer.parseInt(ans);
+        } catch (Exception e) {
+            return 0;
+        }
+    }
     public int maximumWealth(int[][] accounts) {
         int sum = 0;
         int maxWealth = 0;
